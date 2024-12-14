@@ -53,15 +53,15 @@
 ## Screenshots
 
 ### Start Menu
-![Start Menu Screenshot](gameplay/home.jpg)
+![Start Menu Screenshot](gameplay/home.png)
 
 ### Gameplay in Action
-![Gameplay Screenshot](gameplay/game.jpg)
+![Gameplay Screenshot](gameplay/game.png)
 
 ### Select Difficulty Level
-![Difficulty Level Screenshot](gameplay/difficulty+time.jpg)
+![Difficulty Level Screenshot](gameplay/difficulty+time.png)
 
 ### High Score
-![High Score Screenshot](gameplay/high_score.jpg)
+![High Score Screenshot](gameplay/high_score.png)
 
 
