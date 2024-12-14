@@ -1,57 +1,67 @@
-# IGraphics
-This is the repository for IGraphics library. IGraphics is a thin wrapper on top of OpenGL. This can be used for simple 2D graphics demonstrations, project work for C programming language course
+# Catch the Egg
 
-Command line compiling:
------------------------
-g++ -IOpenGL\include -w -c BallDemo.cpp -o BallDemo.o
+**Catch the Egg** is an engaging 2D game developed using **Igraphics**, an OpenGL wrapper in C++. The game challenges players to catch as many falling eggs as possible within a set time limit, featuring customizable difficulty levels and a scoring system to track player performance.
 
-Command line linking:
----------------------
-g++ -LOpenGL\lib BallDemo.o -o BallDemo.exe -lGlaux -lGLU32 -lglui32 -lglut32 -lOPENGL32 -lgdi32
+## Features
+- **Dynamic Gameplay**  
+  Eggs fall at varying speeds and directions, making the game exciting and challenging.
+- **Customizable Difficulty Levels**  
+  Choose from multiple difficulty levels to match your skill and enhance gameplay.
+- **Scoring System**  
+  Keep track of your performance with an integrated scoring system.
+- **Timer-based Challenges**  
+  Compete against the clock to achieve the highest score within the time limit.
+- **Interactive Graphics**  
+  Enjoy visually appealing animations and responsive controls powered by OpenGL.
 
-Command line running:
----------------------
-Make sure glut32.dll is present in the same folder
-Run BallDemo.exe
+## Technologies Used
+- **Programming Language:** C++
+- **Graphics Library:** Igraphics (an OpenGL wrapper for C++)
+- **Development Tools:** Any standard C++ IDE with OpenGL support (e.g., Code::Blocks, Visual Studio)
 
-Animation Related API:
-----------------------
-int iSetTimer(int msec, void (*f)(void))
-void iPauseTimer(int index)
-void iResumeTimer(int index)
+## How to Run the Game
 
-Shape drawing:
---------------
-void iSetColor(double r, double g, double b)
-void iPoint(double x, double y, int size=0)
-void iLine(double x1, double y1, double x2, double y2)
-void iFilledPolygon(double x[], double y[], int n)
-void iPolygon(double x[], double y[], int n)
-void iRectangle(double left, double bottom, double dx, double dy)
-void iFilledRectangle(double left, double bottom, double dx, double dy)
-void iFilledCircle(double x, double y, double r, int slices=100)
-void iCircle(double x, double y, double r, int slices=100)
-void iEllipse(double x, double y, double a, double b, int slices=100)
-void iFilledEllipse(double x, double y, double a, double b, int slices=100)
+### Prerequisites
+1. **Install a C++ IDE** with OpenGL support (e.g., Code::Blocks or Visual Studio).
+2. **Set up OpenGL and Igraphics:**  
+   - Download Igraphics from the official repository.
+   - Follow the setup instructions provided with Igraphics to configure your development environment.
 
-Text output:
-------------
-void iText(double x, double y, char *str, void* font=GLUT_BITMAP_8_BY_13)
+### Steps to Run
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/YourUsername/CatchTheEgg.git
+   ```
 
-Rendering:
-----------
-void iDraw();
-void iClear();
-void iShowBMP(int x, int y, char filename[])
+2. **Navigate to the Project Directory**  
+   ```bash
+   cd CatchTheEgg
+   ```
 
-Initialization:
----------------
-void iInitialize(int width=500, int height=500, char *title="iGraphics")
+3. **Open the Project in Your IDE**  
+   Load the project file (`.cbp` for Code::Blocks or `.sln` for Visual Studio).
 
-I/O event handling:
--------------------
-void iKeyboard(unsigned char);
-void iSpecialKeyboard(unsigned char);
-void iMouseMove(int, int);
-void iMouse(int button, int state, int x, int y);
+4. **Build and Run**  
+   Compile and execute the project directly from the IDE.
+
+## Gameplay Instructions
+1. Launch the game.
+2. Use the keyboard or mouse to move the basket and catch the falling eggs.
+3. Avoid missing eggs as much as possible—each miss reduces your score.
+4. Achieve the highest score within the time limit!
+
+## Screenshots
+
+### Start Menu
+![Start Menu Screenshot](gameplay/home.jpg)
+
+### Gameplay in Action
+![Gameplay Screenshot](gameplay/game.jpg)
+
+### Select Difficulty Level
+![Difficulty Level Screenshot](gameplay/difficulty+time.jpg)
+
+### High Score
+![High Score Screenshot](gameplay/high_score.jpg)
+
 

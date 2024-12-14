@@ -128,3 +128,28 @@
 	<GL/gl.h>
 	<GL/glu.h>
 
+1722888552 source:c:\users\asus\desktop\catch the egg\catch the egg.cpp
+	"iGraphics.h"
+	<windows.h>
+	<mmsystem.h>
+	<math.h>
+
+1717847002 c:\users\asus\desktop\catch the egg\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"glut.h"
+	<time.h>
+	<math.h>
+	"glaux.h"
+
+1717847003 c:\users\asus\desktop\catch the egg\opengl\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1717847003 c:\users\asus\desktop\catch the egg\opengl\include\glaux.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
